@@ -1,0 +1,64 @@
+.card{
+	border: 2px solid #ddd;
+	background-color: white;
+	text-align: center;
+	width: 400px;
+
+
+}
+a{
+	color: green;
+
+}
+.flex-parent{
+	display:flex;
+	flex-wrap: wrap;
+	margin: 30px;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	
+}
+*{
+	
+	background-color: red;
+}
+
+@media screen and (max-width:425px){
+
+	.card{
+	border: 2px solid #ddd;
+	background-color: yellow;
+	text-align: center;
+	width: 300px;
+	margin: 5px;
+}
+
+a{
+	color:green;
+}
+img{
+	width: 150px;
+}
+
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+	.card{
+	border: 2px solid #ddd;
+	background-color: green;
+	text-align: center;
+	width: 300px;
+	margin: 5px;
+}
+
+a{
+	color: yellow;
+}
+img{
+	width: 300px;
+}
+
+
+}
